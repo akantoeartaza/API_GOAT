@@ -1,0 +1,30 @@
+mat-toolbar {
+  background: #f1efef; 
+  color: #d21616; 
+
+  span {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .nav {
+    flex: 1;
+  }
+
+  button {
+    color:  #d21616;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 10px;
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+      background-color:rgb(12, 81, 201); 
+    }
+  }
+
+  button.router-link-active {
+    background-color: #333; 
+  }
+}
